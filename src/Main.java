@@ -18,7 +18,7 @@ public class Main {
         try {
             throw  new RuntimeException("!!!");
         } catch (Exception e) {
-//            Обратите внимание, для методов каждого уровня логгирования существует ряд перегруженных реализаций
+//            Обратите внимание, для методов каждого уровня логирования существует ряд перегруженных реализаций
             log.error("Some error");
             log.error("Some error", e);
             log.error(e);
